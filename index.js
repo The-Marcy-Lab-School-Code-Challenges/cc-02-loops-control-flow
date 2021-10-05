@@ -1,11 +1,8 @@
 //1
-function fizzBuzz(){
+function absoluteValue(){
   
 }
 
-//2
-function fizzBuzz(number){
-  
-}
+
 
 
