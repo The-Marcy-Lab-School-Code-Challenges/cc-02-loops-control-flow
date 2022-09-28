@@ -19,7 +19,7 @@ absoluteValue(-3)       //returns 3
 
 2. Write a function `multiplesOfSixAndNine` that **console logs** all positive numbers from 1 to 100, if a number is a multiple of 6 and a mutliple of 9.
 ```
-multiplesOfThreeAndFive() 
+multiplesOfSixAndNine() 
 // 18
 // 36
 // 54
