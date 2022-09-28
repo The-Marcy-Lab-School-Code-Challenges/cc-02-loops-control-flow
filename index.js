@@ -4,7 +4,7 @@ function absoluteValue(){
 }
 
 //2 
-function multiplesOfThreeAndFive(){
+function multiplesOfSixAndNine(){
 
 }
 
