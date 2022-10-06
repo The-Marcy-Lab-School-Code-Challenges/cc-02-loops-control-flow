@@ -31,3 +31,10 @@ multiplesOfSixAndNine()
 ```
 multiplesOfFourAndSix() // returns [12, 24, 36, 48,60, 72, 84, 96]
 ```
+
+4. Write a fucntion named `countMultiplesOfTwo` that takes in an array of integers and returns the number of integers in the array that are multiples of two. 
+```
+countMultiplesOfTwo([1,2,3,4,5,6,7,8,9,10]) // returns 5
+countMultiplesOfTwo([15,23,35,45,67]) // returns 0
+countMultiplesOfTwo([2,6,14]) // returns 3
+```
