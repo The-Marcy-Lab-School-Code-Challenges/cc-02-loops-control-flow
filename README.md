@@ -27,7 +27,7 @@ multiplesOfSixAndNine()
 ```
 
 ### Bonus 
-3. Write a function `multiplesOfFourAndSix` that returns an array of all positive numbers from 1 to 100, if a number is a multiple of 4 and a mutliple of 6. 
+3. Write a function `multiplesOfFourAndSix` that **returns an array** of all positive numbers from 1 to 100 if that number is a multiple of 4 and a mutliple of 6. 
 ```
 multiplesOfFourAndSix() // returns [12, 24, 36, 48,60, 72, 84, 96]
 ```
