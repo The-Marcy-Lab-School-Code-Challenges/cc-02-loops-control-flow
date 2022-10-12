@@ -10,20 +10,26 @@
 
 ## Code Problems
 
-1. Write a function `absoluteValue` that **returns** the absolute value of a number. If the value is not a number, it returns `null`. Complete this function **without** using Math.abs() .
-```
-absoluteValue(10.35)    //returns 10.35
-absoluteValue("hello")  //returns null
-absoluteValue(-3)       //returns 3
-```
-
-2. Write a function `multiplesOfSixAndNine` that **console logs** all positive numbers from 1 to 100, if a number is a multiple of 6 and a mutliple of 9.
+1. Write a function `multiplesOfSixAndNine` that **console logs** all positive numbers from 1 to 100, if a number is a multiple of 6 and a mutliple of 9.
 ```
 multiplesOfSixAndNine() 
 // 18
 // 36
 // 54
 // 72
+```
+2. Write a function named `greaterNum` that:
+  - takes 4 arguments.
+  - returns whichever number is the greater (higher) number.
+  - If two arguments are equal, it will return the string "two integers are equal"
+  - If three arguments are equal, it will return the string "three integers are equal"
+  - If all arguments are equal, it will return the string "all integers are equal"
+  - If a given argument is not an integer data type it will return `null`
+```
+greaterNum(10, 7, 16, 80) //returns 80
+greaterNum(1.14, 1.14, 5, 7) //returns "two integers are equal"
+greaterNum(1.14, 1.14, 1.14, 7) //returns "three integers are equal"
+greaterNum("21", 21, 60, 3) //returns null
 ```
 
 ### Bonus 
