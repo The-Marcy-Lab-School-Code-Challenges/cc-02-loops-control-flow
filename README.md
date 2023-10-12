@@ -29,6 +29,7 @@ multiplesOfSixAndNine()
 greaterNum(10, 7) //returns 10
 greaterNum(1.14, 1.14) //returns "both integers are equal"
 greaterNum("21", 21) //returns null
+greaterNum("21", "21") //returns null
 ```
 
 3. Write a function named `sumOfFourAndSix` that returns the sum of all the multiples of 4 **and** 6 from 1 to 1000, including 1 and 1000.
