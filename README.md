@@ -17,6 +17,7 @@ multiplesOfSixAndNine()
 // 36
 // 54
 // 72
+// 90
 ```
 
 2. Write a function named `greaterNum` that:
