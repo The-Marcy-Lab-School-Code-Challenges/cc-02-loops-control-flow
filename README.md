@@ -10,7 +10,7 @@
 
 ## Code Problems
 
-1. Write a function `multiplesOfSixAndNine` that **console logs** all positive numbers from 1 to 100, if a number is a multiple of 6 and a mutliple of 9.
+1. Write a function `multiplesOfSixAndNine` that **console logs** all positive numbers from 1 to 100 inclusive if a number is a multiple of 6 **and** a multiple of 9.
     
     ```
     multiplesOfSixAndNine()
@@ -19,14 +19,13 @@
     // 54
     // 72
     // 90
-    
     ```
     
 2. Write a function named `greaterNum` that:
-- takes 2 arguments, both numbers.
-- returns whichever number is the greater (higher) number.
-- If both arguments are equal, it will return the string "both integers are equal"
-- If a given argument is not an integer data type it will return `null`
+    - takes 2 arguments, both numbers.
+    - returns whichever number is the greater (higher) number.
+    - If both arguments are equal, it will return the string "both integers are equal"
+    - If a given argument is not an integer data type it will return `null`
     
     ```
     greaterNum(10, 7) //returns 10
@@ -41,7 +40,6 @@
     
     ```
     sumOfFourAndSix() //returns 41832
-    
     ```
     
 2. Write a function named `oddAndEvenToN` that takes in an integer argument and will console.log if a number is odd or even between 0 and the given arguement.
@@ -58,21 +56,22 @@
     
     ```
     
-3. Write a function named `sumOfNotDivisibleByTen` that returns the sum of all numbers 1 to (and including) 1000, that are **not** divisible by ten.
+3. Write a function named `sumOfNotDivisibleByTen` that returns the sum of all numbers 1 to 1000 inclusive, that are **not** divisible by ten.
     
     ```
     sumOfNotDivisibleByTen() //returns 450000
+    
     // 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 11 + 12 + 13 + 14 + 15 + 16 + 17 + 18 + 19 + 21 + 22...
     
     ```
     
 4. Write a function named `greaterNum` that:
-- takes 4 arguments.
-- returns whichever number is the greater (higher) number.
-- If two arguments are equal, it will return the string "two integers are equal"
-- If three arguments are equal, it will return the string "three integers are equal"
-- If all arguments are equal, it will return the string "all integers are equal"
-- If a given argument is not an integer data type it will return `null`
+    - takes 4 arguments.
+    - returns whichever number is the greater (higher) number.
+    - If two arguments are equal, it will return the string "two integers are equal"
+    - If three arguments are equal, it will return the string "three integers are equal"
+    - If all arguments are equal, it will return the string "all integers are equal"
+    - If a given argument is not an integer data type it will return `null`
     
     ```
     greaterNum(10, 7, 16, 80) //returns 80
@@ -93,10 +92,3 @@
     ```
     
 2. Write a fucntion named `countMultiplesOfTwo` that takes in an array of integers and returns the number of integers in the array that are multiples of two.
-    
-    ```
-    countMultiplesOfTwo([1,2,3,4,5,6,7,8,9,10]) // returns 5
-    countMultiplesOfTwo([15,23,35,45,67]) // returns 0
-    countMultiplesOfTwo([2,6,14]) // returns 3
-    
-    ```
