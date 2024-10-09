@@ -91,4 +91,4 @@
     
     ```
     
-2. Write a fucntion named `countMultiplesOfTwo` that takes in an array of integers and returns the number of integers in the array that are multiples of two.
+2. Write a function named `countMultiplesOfTwo` that takes in an array of integers and returns the number of integers in the array that are multiples of two.
